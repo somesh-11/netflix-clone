@@ -1,39 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Netflix Clone</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <div class="navbar">
+  <!-- Navbar -->
+  <nav class="navbar">
 
-    <div class="logo">NETFLIX</div>
+    <div class="left-nav">
+      <h1 class="logo">NETFLIX</h1>
 
-    <div class="links">
-      <a href="#">Home</a>
-      <a href="#">Movies</a>
-      <a href="#">TV Shows</a>
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>TV Shows</li>
+        <li>Movies</li>
+        <li>New & Popular</li>
+        <li>My List</li>
+      </ul>
     </div>
 
-  </div>
+    <div class="right-nav">
 
-  <div class="banner">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search movies..."
+      />
 
-    <div class="content">
-      <h1>Stranger Thighs</h1>
+      <img
+        src="https://i.pravatar.cc/40"
+        class="profile"
+      />
+    </div>
+  </nav>
 
-      <p>
-        Watch trending movies and series online.
+  <!-- Hero Banner -->
+  <header class="banner">
+
+    <div class="overlay"></div>
+
+    <div class="banner-content">
+
+      <h1 id="bannerTitle">Loading...</h1>
+
+      <p id="bannerDescription">
+        Loading description...
       </p>
 
-      <button>Play</button>
-    </div>
+      <div class="banner-buttons">
+        <button class="play-btn">▶ Play</button>
+        <button class="info-btn">More Info</button>
+      </div>
 
-  </div>
+    </div>
+  </header>
+
+  <!-- Movie Container -->
+  <main id="movieContainer"></main>
+
+  <script src="script.js"></script>
 
 </body>
 </html>
