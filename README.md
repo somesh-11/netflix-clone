@@ -37,7 +37,6 @@ Deployment & DevOps
 
 Project Structure
 
-```bash
 Netflix-Clone/
 │
 ├── index.html
@@ -47,3 +46,5 @@ Netflix-Clone/
 └── .github/
     └── workflows/
         └── deploy.yml
+
+Website: https://somesh-11.github.io/netflix-clone/
