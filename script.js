@@ -5,7 +5,7 @@ const movieData = [
 
     movies:[
       {
-        title:"Dark Future",
+        title:"Dark",
         image:"https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?q=80&w=1200&auto=format&fit=crop",
 
         description:"A cyberpunk thriller."
